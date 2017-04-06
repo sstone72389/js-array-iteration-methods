@@ -4,8 +4,9 @@
 const examples = require('../lib/examples')
 const forEach = require('../lib/for-each.js')
 
-const workingArray = examples.numbers.whole
+// const workingArray = examples.numbers.fibonacci
 
-forEach(workingArray, (e, i, a) => {
+loadCities((cities) => {}
+    forEach(cities, (e, i, a) => {
   console.log(e, i, a === workingArray)
 })
